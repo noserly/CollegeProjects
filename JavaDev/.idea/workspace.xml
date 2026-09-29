@@ -1,16 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="064fcdd5-5a3d-48d4-9338-52472036d13e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/kw2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SimpleSourceFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="3.945717837907228E-63" />
+      <entry key="MS500" value="5.987344538675013E-13" />
+      <entry key="S2" value="0.0023212114785613604" />
+      <entry key="S5" value="0.24254179320716576" />
+      <entry key="S10" value="1.1963192100750826" />
+      <entry key="S30" value="4.268084594513466" />
+      <entry key="S60" value="7.716359547775158" />
+      <entry key="M2" value="12.764279450128761" />
+      <entry key="M5" value="26.985794058152713" />
+      <entry key="M10" value="49.66726789044849" />
+      <entry key="M15" value="66.44398985955073" />
+      <entry key="M30" value="93.9116325902883" />
+      <entry key="H1" value="114.17039057224528" />
+      <entry key="H2" value="126.62380302118692" />
+      <entry key="H4" value="133.55105171400493" />
+      <entry key="D1" value="139.72037578537135" />
+      <entry key="W1" value="140.816236655183" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0000000000024185" />
+      <entry key="MS500" value="1.005848218376388" />
+      <entry key="S2" value="1.4445819181852055" />
+      <entry key="S5" value="2.0916128793971644" />
+      <entry key="S10" value="2.4766099164417783" />
+      <entry key="S30" value="2.8359142121554903" />
+      <entry key="S60" value="3.071101150408763" />
+      <entry key="M2" value="3.4500972776786947" />
+      <entry key="M5" value="5.525511749661412" />
+      <entry key="M10" value="9.912850076435298" />
+      <entry key="M15" value="13.489642749943478" />
+      <entry key="M30" value="19.962401244300523" />
+      <entry key="H1" value="25.264101378076244" />
+      <entry key="H2" value="28.753066741327807" />
+      <entry key="H4" value="30.77013814005311" />
+      <entry key="D1" value="32.61245747965074" />
+      <entry key="W1" value="32.944231795046676" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.599791831445695E-6" />
+      <entry key="MS500" value="0.08752688977471433" />
+      <entry key="S2" value="0.8809907631945718" />
+      <entry key="S5" value="1.9982225695439657" />
+      <entry key="S10" value="3.466160497182913" />
+      <entry key="S30" value="7.015651393301853" />
+      <entry key="S60" value="10.733314749722428" />
+      <entry key="M2" value="16.177880792957257" />
+      <entry key="M5" value="32.47943769785881" />
+      <entry key="M10" value="59.54470963883441" />
+      <entry key="M15" value="79.8986923829175" />
+      <entry key="M30" value="113.84622436459205" />
+      <entry key="H1" value="139.4164471794516" />
+      <entry key="H2" value="155.36651740631174" />
+      <entry key="H4" value="164.3156351802369" />
+      <entry key="D1" value="172.3318504900798" />
+      <entry key="W1" value="173.76032659634396" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -23,6 +94,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.kw2.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -32,6 +104,10 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/noserly/Documents/CollegeProjects/JavaDev/src/Main.java",
     "to.speed.mode.migration.done": "true"
@@ -40,8 +116,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
