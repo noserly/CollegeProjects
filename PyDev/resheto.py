@@ -44,3 +44,14 @@
 # y = set(x)
 # r = [f'{i}^{x.count(i)}' for i in y]
 # print(r)
+
+#3
+def resheto_eratosfena(n):
+    arr = list(range(n+1))
+    arr[1]=0
+    for p in range(2, int(n**0.5)+1):
+        if arr[p]!=0:
+            for x in range(p*p,n+1,p):
+                arr[x]=0
+    arr=[x for x in arr if x!=0]
+    return arr
