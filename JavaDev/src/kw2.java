@@ -79,18 +79,25 @@
 //    }
 //}
 
-// №2
-import java.util.Scanner;
-public class kw2{
-    static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+//// №2
+//import java.util.Scanner;
+//public class kw2{
+//    static void main(String[] args){
+//        Scanner scanner = new Scanner(System.in);
+//
+//        int s = Integer.parseInt(scanner.nextLine());
+//
+//        switch (s){
+//            case 100 -> System.out.println("Стой");
+//            case 010 -> System.out.println("Внимание");
+//            case 001 -> System.out.println("Путь свободен");
+//            case 110 -> System.out.println("Стой приготовиться");
+//            case 011 -> System.out.println("Снизить скорость");
+//            case 101 -> System.out.println("Ошибка: несовместимые сигналы");
+//            case 111 -> System.out.println("Ошибка: несовместимые сигналы");
+//            case 000 -> System.out.println("Ошибка: сигнал не подан");
+//            default -> System.out.print("ничего не введено");
+//        }
+//    }
+//}
 
-        String s = scanner.nextLine();
-
-        int R = s.charAt(0)-'0';
-        int Y = s.charAt(1)-'0';
-        int G = s.charAt(2)-'0';
-
-
-    }
-}
