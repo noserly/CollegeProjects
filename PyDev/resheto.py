@@ -13,7 +13,6 @@
 #             cel = b%a
 #             b = cel
 # print(nod(nod(a,b),c))
-from difflib import restore
 # #2
 # def resheto_eratosfena(n):
 #     arr = list(range(n+1))
@@ -95,3 +94,26 @@ from difflib import restore
 # if s==0:print(f'чиисло мерсона с индексом {p} простое')
 # else: print('Составное')
 
+# #5
+# x = int(input())
+# def neiman(x):
+#     s = []
+#     for i in range(10):
+#         r = int(str(x**2)[2:7])
+#         s.append(r)
+#         x = r
+#     return s
+# print(neiman(x))
+
+# #6
+# def resheto_sudurama(n):
+#     s = list(range(1,n+1))
+#     n1 = (n-1)//2
+#     kar=[]
+#     for i in range(1,20):
+#         for j in range(i,20):
+#             k = i+j+2*i*j
+#             if k<=n1:kar.append(k)
+#     arr = [x*2+1 for x in range(1,n1+1) if x not in kar]
+#     return arr
+# print(resheto_sudurama(12431))
