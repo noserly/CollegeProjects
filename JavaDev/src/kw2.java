@@ -102,83 +102,98 @@
 //}
 
 //3
-import java.util.Scanner;
-public class kw2 {
-    public static int damage(int ur, int resist){
-        return (ur*20*resist)/100;
-    }
-    public static void main(String[] args){
-        Scanner scan = new Scanner(System.in);
-
-        int hp = 100;
-        int resist = 3;
-        int mana = 50;
-        int count = 0;
-        int skip = 0;
-        int break_defence = 0;
-        int s = 1;
-
-        while (s!=0||hp<=0){
-            if(40<=hp && hp<70){
-                resist = 2;
-            }
-            else if (10<=hp && hp<40) {
-                resist = 1;
-            }
-            s = Integer.parseInt(scan.nextLine());
-            if (s>4||s<0){
-                System.out.println("Неизвестное заклинание");
-                skip++;
-                count++;
-            }
-            switch (s){
-                case 1:
-                    if (mana-10>=0){
-                        hp = hp - damage(15,resist);
-                        System.out.println("Прочность: "+hp+", Мана: "+mana+", Защита: "+resist);
-                    }
-                    else {
-                        System.out.println("Нет маны");
-                        skip++;
-                    }
-                    count++;
-                    s = 1;
-                    break;
-                case 2:
-                    if (mana-5>=0){
-                        hp = hp - damage(8,resist);
-                        System.out.println("Прочность: "+hp+", Мана: "+mana+", Защита: "+resist);
-                    }
-                    else {
-                        System.out.println("Нет маны");
-                        skip++;
-                    }
-                    count++;
-                    s = 2;
-                    break;
-                case 3:
-                    if (mana-20>=0){
-                        hp = hp - damage(25,resist);
-                        System.out.println("Прочность: "+hp+", Мана: "+mana+", Защита: "+resist);
-                    }
-                    else {
-                        System.out.println("Нет маны");
-                        skip++;
-                    }
-                    count++;
-                    s = 3;
-                    break;
-                case 4:
-                    mana +=15;
-                    count++;
-                    skip++;
-                    s = 4;
-                    break;
-                default: break;
-            }
-        }
-        if (hp<=0) {
-            System.out.println("Замок пал!");
-        }
-    }
-}
+//import java.util.Scanner;
+//public class kw2 {
+//    public static int damage(int ur, int resist){
+//        int result = ur - ur * 20 * resist / 100;
+//        if (result < 1) {
+//            result = 1;
+//        }
+//        return result;
+//    }
+//    public static void main(String[] args){
+//        Scanner scan = new Scanner(System.in);
+//
+//        int hp = 100;
+//        int resist = 3;
+//        int mana = 50;
+//        int count = 0;
+//        int skip = 0;
+//        int lost = 0;
+//        int s = 1;
+//
+//        while (s!=0&&hp>0){
+//            s = Integer.parseInt(scan.nextLine());
+//            if (s==0){
+//                break;
+//            }
+//            count++;
+//            switch (s){
+//                case 1:
+//                    if (mana-10>=0){
+//                        hp = hp - damage(15,resist);
+//                        mana -= 10;
+//                    }
+//                    else {
+//                        System.out.println("Нет маны");
+//                        skip++;
+//                    }
+//                    count++;
+//                    s = 1;
+//                    break;
+//                case 2:
+//                    if (mana-5>=0){
+//                        hp = hp - damage(8,resist);
+//                        mana -= 5;
+//                    }
+//                    else {
+//                        System.out.println("Нет маны");
+//                        skip++;
+//                    }
+//                    count++;
+//                    s = 2;
+//                    break;
+//                case 3:
+//                    if (mana-20>=0){
+//                        hp = hp - damage(25,resist);
+//                        mana -= 20;
+//                    }
+//                    else {
+//                        System.out.println("Нет маны");
+//                        skip++;
+//                    }
+//                    count++;
+//                    s = 3;
+//                    break;
+//                case 4:
+//                    mana +=15;
+//                    count++;
+//                    skip++;
+//                    s = 4;
+//                    break;
+//                default:
+//                    System.out.println("Неизвестное заклинание");
+//                    skip++;
+//                    break;
+//            }
+//            if (resist == 3 && hp < 70) {
+//                resist = 2;
+//                lost++;
+//            } else if (resist == 2 && hp < 40) {
+//                resist = 1;
+//                lost++;
+//            } else if (resist == 1 && hp < 10) {
+//                resist = 0;
+//                lost++;
+//            }
+//            System.out.println("Прочность: "+hp+", Мана: "+mana+", Защита: "+resist);
+//
+//            if (hp<=0) {
+//                System.out.println("Замок пал!");
+//            }
+//        }
+//        System.out.println("Ходов: " + count);
+//        System.out.println("Пропущено: " + skip);
+//        System.out.println("Защиты потеряно: " + lost);
+//    }
+//}
