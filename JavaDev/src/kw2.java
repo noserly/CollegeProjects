@@ -89,19 +89,19 @@
 //
 //        switch (s){
 //            case 100 -> System.out.println("Стой");
-//            case 010 -> System.out.println("Внимание");
-//            case 001 -> System.out.println("Путь свободен");
+//            case 10 -> System.out.println("Внимание");
+//            case 1 -> System.out.println("Путь свободен");
 //            case 110 -> System.out.println("Стой приготовиться");
-//            case 011 -> System.out.println("Снизить скорость");
+//            case 11 -> System.out.println("Снизить скорость");
 //            case 101 -> System.out.println("Ошибка: несовместимые сигналы");
 //            case 111 -> System.out.println("Ошибка: несовместимые сигналы");
-//            case 000 -> System.out.println("Ошибка: сигнал не подан");
+//            case 0 -> System.out.println("Ошибка: сигнал не подан");
 //            default -> System.out.print("ничего не введено");
 //        }
 //    }
 //}
 
-//3
+////3
 //import java.util.Scanner;
 //public class kw2 {
 //    public static int damage(int ur, int resist){
@@ -195,5 +195,58 @@
 //        System.out.println("Ходов: " + count);
 //        System.out.println("Пропущено: " + skip);
 //        System.out.println("Защиты потеряно: " + lost);
+//    }
+//}
+
+////4
+//import java.util.Scanner;
+//public class kw2 {
+//    public static void main(String[] args){
+//        Scanner scan = new Scanner(System.in);
+//        int n = Integer.parseInt(scan.nextLine());
+//        int l = Integer.parseInt(scan.nextLine());
+//
+//        boolean found = false;
+//        int counter_of_proveryaemie_chisla = 0;
+//        int tecushee_chislo = n;
+//        do {
+//            int res = tecushee_chislo;
+//            int count_of_iteration = 0;
+//            if (res!=1){
+//                do {
+//                    res = (res % 2 == 0) ? res / 2 : (res * 3) + 1;
+//                    count_of_iteration += 1;
+//                } while (res != 1);
+//            }
+//            if (count_of_iteration>=l){
+//                found = true;
+//            }
+//            else{
+//                tecushee_chislo++;
+//                counter_of_proveryaemie_chisla++;
+//            }
+//        }while(!found&&counter_of_proveryaemie_chisla<1000);
+//        if (!found){
+//            System.out.println("Не найдено");
+//        }
+//        else{
+//            int res = tecushee_chislo;
+//            System.out.println(res);
+//            int count_of_iteration = 0;
+//            int max = 0;
+//            if (res!=1){
+//                do {
+//                    res = (res % 2 == 0) ? res / 2 : (res * 3) + 1;
+//                    count_of_iteration += 1;
+//                    System.out.println(res);
+//                    if(res>max){
+//                        max = res;
+//                    }
+//                } while (res != 1);
+//            }
+//            System.out.println("Число: " + tecushee_chislo);
+//            System.out.println("Шагов: " + count_of_iteration);
+//            System.out.println("Максимум: " + max);
+//        }
 //    }
 //}
