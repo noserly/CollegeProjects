@@ -250,3 +250,25 @@
 //        }
 //    }
 //}
+
+//5 надо показать
+//import java.util.Scanner;
+//public class kw2 {
+//    public static void main(String[] args){
+//        Scanner scan = new Scanner(System.in);
+//        int reject = 0;
+//        int max_bet = 0;
+//        int index_of_winner = 0;
+//        for (int i=0;i<6;i++){
+//            int s = Integer.parseInt(scan.nextLine());
+//            if (s<100){reject++;continue;}
+//            else if (s>5000){reject++;continue;}
+//            else if (s>max_bet){
+//                max_bet = s;
+//                index_of_winner = i+1;
+//            }
+//        }
+//        System.out.println("Победитель: "+index_of_winner+", ставка: "+max_bet);
+//        System.out.println("Отклонено: "+reject);
+//    }
+//}
