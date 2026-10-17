@@ -198,6 +198,8 @@
 //    }
 //}
 
+import com.sun.source.tree.BreakTree;
+
 ////4
 //import java.util.Scanner;
 //public class kw2 {
@@ -271,4 +273,101 @@
 //        System.out.println("Победитель: "+index_of_winner+", ставка: "+max_bet);
 //        System.out.println("Отклонено: "+reject);
 //    }
+//}
+
+////6
+//public class kw2 {
+//    static int[] boundingBox(int[][] grid){
+//        if (grid.length==0||grid==null){
+//            return new int[0];
+//        }
+//        int rows = grid.length;
+//        int cols = grid[0].length;
+//
+//        int top = rows;
+//        int bottom = -1;
+//        int left = cols;
+//        int right = -1;
+//        for (int r = 0; r < grid.length; r++){
+//            for (int c = 0; c < grid[r].length; c++){
+//                if (grid[r][c]==1){
+//                    if (r < top) top = r;
+//                    if (r>bottom) bottom = r;
+//                    if (c<left) left = c;
+//                    if (c>right) right = c;
+//                }
+//            }
+//        }
+//        if (bottom==-1){return new int[0];}
+//        return new int[]{top,left,bottom,right};
+//    }
+//
+//    static int[][] cut(int[][] grid,int[] box) {
+//        if (box.length == 0 || box == null || box.length != 4)
+//            return new int[0][0];
+//        int top = box[0];
+//        int left = box[1];
+//        int bottom = box[2];
+//        int right = box[3];
+//        if (top < 0 || left < 0 || bottom >= grid.length || right >= grid[0].length || top > bottom || left > right) {
+//            return new int[0][0];
+//        }
+//        int newRows = bottom - top + 1;
+//        int newCol = right - left + 1;
+//        int[][] newAr = new int[newRows][newCol];
+//        for (int r = top; r <= bottom; r++) {
+//            for (int c = left; c <= right; c++) {
+//                newAr[r - top][c - left] = grid[r][c];
+//            }
+//        }
+//        return newAr;
+//    }
+//    static int countOnes(int[][] grid){
+//        if (grid.length==0||grid==null){
+//            return 0;
+//        }
+//        int c = 0;
+//        for (int i=0;i<grid.length;i++){
+//            for (int g=0;g<grid[i].length;g++){
+//                if (grid[i][g]==1){
+//                    c++;
+//                }
+//            }
+//        }
+//        return c;
+//    }
+//    static int area(int[] box) {
+//        if (box == null || box.length != 4) {
+//            return 0;
+//        }
+//
+//        int top = box[0];
+//        int left = box[1];
+//        int bottom = box[2];
+//        int right = box[3];
+//
+//        return (bottom - top + 1) * (right - left + 1);
+//
+//    }
+//        public static void main(String[] args) {
+//            int[][] grid = {
+//                    {0, 0, 0, 0, 0},
+//                    {0, 1, 0, 0, 0},
+//                    {0, 0, 0, 1, 0},
+//                    {0, 1, 0, 0, 0},
+//                    {0, 0, 0, 0, 0}
+//            };
+//            int[] box = boundingBox(grid);
+//            int[][] c = cut(grid, box);
+//            for (int[] row : c) {
+//                for (int val : row) {
+//                    System.out.print(val + " ");
+//                }
+//                System.out.println();
+//            }
+//            int count = countOnes(grid);
+//            System.out.println(count);
+//            int ar = area(box);
+//            System.out.println(ar);
+//        }
 //}
