@@ -253,7 +253,6 @@ import com.sun.source.tree.BreakTree;
 //    }
 //}
 
-//5 надо показать
 //import java.util.Scanner;
 //public class kw2 {
 //    public static void main(String[] args){
@@ -352,7 +351,7 @@ import com.sun.source.tree.BreakTree;
 //        public static void main(String[] args) {
 //            int[][] grid = {
 //                    {0, 0, 0, 0, 0},
-//                    {0, 1, 0, 0, 0},
+//                    {0, 0, 0, 0, 0},
 //                    {0, 0, 0, 1, 0},
 //                    {0, 1, 0, 0, 0},
 //                    {0, 0, 0, 0, 0}
@@ -371,3 +370,55 @@ import com.sun.source.tree.BreakTree;
 //            System.out.println(ar);
 //        }
 //}
+
+//7
+import java.util.Scanner;
+public class kw2 {
+    static int haming(String a, String b){
+        int hamming = 0;
+        if (a.length()!=b.length())return 0;
+        for (int i = 0; i < a.length(); i++) {
+            if (a.charAt(i) != b.charAt(i)) hamming++;
+        }
+        return hamming;
+    }
+    static int[] diffPosition(String a,String b){
+        int hamming = haming(a,b);
+        if (hamming==0)return new int[0];
+
+        int[] ar = new int[hamming];
+        int ind = 0;
+        for (int i =0; i<a.length();i++){
+            if (a.charAt(i)!=b.charAt(i)) ar[ind++]=i;
+        }
+        return ar;
+    }
+    static char[] diffChars(String a,String b){
+        int hamming = haming(a,b);
+        if (hamming==0)return new char[0];
+        int[] pos = diffPosition(a,b);
+        char[] res = new char[pos.length];
+        int i=0;
+        for (int p : pos){
+            res[i++]=b.charAt(p);
+        }
+        return res;
+    }
+    static int similar(String a, String b){
+        int ham = haming(a,b);
+        return (100-((ham*100)/a.length()));
+    }
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        String a = scan.nextLine();
+        String b = scan.nextLine();
+        int haming = haming(a,b);
+        System.out.println(haming);
+        int[] pos = diffPosition(a,b);
+        System.out.println(java.util.Arrays.toString(pos));
+        char[] res = diffChars(a,b);
+        System.out.println(java.util.Arrays.toString(res));
+        int sim = similar(a,b);
+        System.out.print(sim);
+    }
+}
