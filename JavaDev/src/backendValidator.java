@@ -17,7 +17,7 @@ public class backendValidator {
                     countOfSymvBeforeDog++;
                 }
                 if (countOfSymvBeforeDog >0 &&lastDotIndex != -1 && lastDotIndex > email.indexOf('@') && (email.length() - lastDotIndex - 1) >= 2){
-                    return true;
+
                 }
 
             } else {
@@ -25,9 +25,6 @@ public class backendValidator {
             }
         }else {
             return false;}
-        return false;
     }
-    public static void main(String[] args){
 
-    }
 }
