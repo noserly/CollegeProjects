@@ -5,23 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="064fcdd5-5a3d-48d4-9338-52472036d13e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PyDev/wb13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backendValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kw2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kw2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PyDev/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PyDev/kr.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PyDev/kr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PyDev/resheto.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PyDev/resheto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PyDev/rt10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PyDev/kr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PyDev/rt5.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PyDev/rt6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PyDev/rt7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PyDev/rt8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PyDev/rt9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PyDev/wb13.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PyDev/wb13.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="11" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,61 +39,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0772045377546153" />
-      <entry key="MS500" value="3.0235958408663626" />
-      <entry key="S2" value="5.507628962175156" />
-      <entry key="S5" value="6.347170469824687" />
-      <entry key="S10" value="6.825458379571987" />
-      <entry key="S30" value="10.38810958618873" />
-      <entry key="S60" value="16.57632306390221" />
-      <entry key="M2" value="28.425135046790537" />
-      <entry key="M5" value="52.73739630133691" />
-      <entry key="M10" value="76.50342207252379" />
-      <entry key="M15" value="94.53640972759723" />
-      <entry key="M30" value="137.6721663282071" />
-      <entry key="H1" value="196.3449769307064" />
-      <entry key="H2" value="256.4266817124173" />
-      <entry key="H4" value="305.7938144146008" />
-      <entry key="D1" value="528.2325639527155" />
-      <entry key="W1" value="1236.1518724519237" />
+      <entry key="MS100" value="5.320525488438511E-6" />
+      <entry key="MS500" value="0.09479236589210184" />
+      <entry key="S2" value="1.1528725658845178" />
+      <entry key="S5" value="2.3561944384378006" />
+      <entry key="S10" value="3.0541776559248572" />
+      <entry key="S30" value="3.6961074633483952" />
+      <entry key="S60" value="4.093990668743527" />
+      <entry key="M2" value="4.863307377797504" />
+      <entry key="M5" value="10.254147252755915" />
+      <entry key="M10" value="29.398102935023463" />
+      <entry key="M15" value="53.133175547108074" />
+      <entry key="M30" value="118.56864565463829" />
+      <entry key="H1" value="208.84364861495345" />
+      <entry key="H2" value="302.94603102345997" />
+      <entry key="H4" value="380.41089557884106" />
+      <entry key="D1" value="634.2103804363408" />
+      <entry key="W1" value="1350.3821172198054" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.5218611422278E-190" />
-      <entry key="S2" value="4.332143428548137E-48" />
-      <entry key="S5" value="1.149853700096626E-19" />
-      <entry key="S10" value="3.7637977015247085E-10" />
-      <entry key="S30" value="0.0010366066509589632" />
-      <entry key="S60" value="0.04486451100008135" />
-      <entry key="M2" value="0.31483109456309477" />
-      <entry key="M5" value="2.0426874517779186" />
-      <entry key="M10" value="7.8770916118458265" />
-      <entry key="M15" value="15.160298816115366" />
-      <entry key="M30" value="36.74252002066673" />
-      <entry key="H1" value="68.26031445984344" />
-      <entry key="H2" value="100.53755117328137" />
-      <entry key="H4" value="126.01563227304958" />
-      <entry key="D1" value="202.0792653228686" />
-      <entry key="W1" value="372.5979092117767" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000244493825" />
+      <entry key="S10" value="1.000265167729755" />
+      <entry key="S30" value="1.1385130790767375" />
+      <entry key="S60" value="1.7150135378706397" />
+      <entry key="M2" value="2.9002071814341157" />
+      <entry key="M5" value="6.650283378396744" />
+      <entry key="M10" value="13.362605328603962" />
+      <entry key="M15" value="19.878296671160754" />
+      <entry key="M30" value="39.50238108220588" />
+      <entry key="H1" value="73.41106972139328" />
+      <entry key="H2" value="113.82498072547709" />
+      <entry key="H4" value="148.5280323731166" />
+      <entry key="D1" value="236.67877595669557" />
+      <entry key="W1" value="410.47311617996723" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0258150053607369" />
-      <entry key="MS500" value="2.98577049088509" />
-      <entry key="S2" value="5.487127296980817" />
-      <entry key="S5" value="6.337362192790669" />
-      <entry key="S10" value="6.820154854032513" />
-      <entry key="S30" value="10.38659538370623" />
-      <entry key="S60" value="16.618245949361306" />
-      <entry key="M2" value="28.734665790320886" />
-      <entry key="M5" value="54.76974130148606" />
-      <entry key="M10" value="84.36243386543222" />
-      <entry key="M15" value="109.67368508850755" />
-      <entry key="M30" value="174.38587602669983" />
-      <entry key="H1" value="264.57705920075347" />
-      <entry key="H2" value="356.9424978827337" />
-      <entry key="H4" value="431.795378269595" />
-      <entry key="D1" value="730.307423793198" />
-      <entry key="W1" value="1608.7484606317282" />
+      <entry key="MS100" value="6.131477608251662E-6" />
+      <entry key="MS500" value="0.1257242704853631" />
+      <entry key="S2" value="1.559002413087519" />
+      <entry key="S5" value="3.049118605985506" />
+      <entry key="S10" value="3.885638204306677" />
+      <entry key="S30" value="4.771849463781626" />
+      <entry key="S60" value="5.769644926495379" />
+      <entry key="M2" value="7.730112514259283" />
+      <entry key="M5" value="16.86468093771709" />
+      <entry key="M10" value="42.719674930749015" />
+      <entry key="M15" value="72.97232589635104" />
+      <entry key="M30" value="158.0351673931455" />
+      <entry key="H1" value="282.22241161763606" />
+      <entry key="H2" value="416.74576398598737" />
+      <entry key="H4" value="528.922170095366" />
+      <entry key="D1" value="870.884093893959" />
+      <entry key="W1" value="1760.8538089959247" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -106,31 +105,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.forTest.executor": "Run",
-    "Application.kw2.executor": "Run",
-    "Application.money.executor": "Run",
-    "Application.tests.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/noserly/Documents/CollegeProjects/JavaDev/src/Main.java",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.forTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.kw2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.money.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tests.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/noserly/Documents/CollegeProjects/JavaDev/src/Main.java&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="forTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="forTest" />

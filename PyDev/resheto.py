@@ -105,15 +105,17 @@
 #     return s
 # print(neiman(x))
 
-# #6
+# #6 
 # def resheto_sudurama(n):
-#     s = list(range(1,n+1))
 #     n1 = (n-1)//2
-#     kar=[]
-#     for i in range(1,20):
+#     s = list(range(1,n1+1))
+#     ind = []
+#     for i in range(1, n1 + 1):
 #         for j in range(i,20):
 #             k = i+j+2*i*j
-#             if k<=n1:kar.append(k)
-#     arr = [x*2+1 for x in range(1,n1+1) if x not in kar]
-#     return arr
-# print(resheto_sudurama(12431))
+#             if k in s:ind.append(k)
+#     arr = [x for x in s if x not in ind]
+#     res = [x*2+1 for x in arr]
+#     res = [2]+res
+#     return res
+# print(resheto_sudurama(100))
